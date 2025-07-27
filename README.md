@@ -1,12 +1,19 @@
-# React + Vite
+In this project we will get the current Weather data from OpenWeatherMap API and display the weather data like Temperature,  Weather condition, Humidity and Wind Speed according to the city.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+1) Current Weather: Display of current temperature, "feels like" temperature, humidity, pressure, wind speed and direction, UV index, and weather conditions (e.g., clear, cloudy, rainy).
 
-Currently, two official plugins are available:
+2) Hourly Forecast: Detailed hourly breakdown of weather conditions for the next 24-48 hours.
+3) Location Search: Easily search for weather by city name, ZIP code, or coordinates.
+4) Responsive Design: Optimized for various screen sizes (desktop, tablet, mobile).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+1) Frontend:
 
-## Expanding the ESLint configuration
+React (or Angular, Vue.js, HTML/CSS/JavaScript)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS (or Bootstrap, SASS, styled-components)
+
+2) Weather API:
+
+OpenWeatherMap API (or AccuWeather, Weatherbit, etc.)
